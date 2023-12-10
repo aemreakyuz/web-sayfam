@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+}
+
+.button-light {
+  border: 2px solid #3730a3;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  color: #3730a3;
+}
+
+.button-hire {
+  border: 2px solid #3730a3;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  color: #e1e1ff;
+}
+.light-text-header {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.light-text-header-bold {
+  color: #1f2937;
+  font-weight: 900;
+}
+.light-text-header-colored {
+  color: #4338ca;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.light-text-paragraph-bold {
+  color: #777777;
+  font-weight: 700;
+  font-size: 15px;
+}
+.light-text-paragraph-medium {
+  color: #6b7280;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.light-text-paragraph-medium-bold {
+  color: #6b7280;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.light-text-paragraph-small {
+  color: #6b7280;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.dark-text-header {
+  color: #aebccf;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Playfair Display;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

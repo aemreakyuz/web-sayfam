@@ -1,0 +1,15 @@
+.dark-toast {
+  background: green;
+  color: white;
+  font-size: 28px;
+  width: 34vw;
+  padding: 30px 20px;
+}
+
+.light-toast {
+  background: blue;
+  color: white;
+  font-size: 28px;
+  width: 34vw;
+  padding: 30px 20px;
+}

@@ -1,0 +1,23 @@
+.ellipse-container {
+    position: relative;
+    width: 55px;
+    display: inline-block;
+}
+
+.inside-ellipse {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) rotate(30deg);
+
+    font-size: 24px; 
+    font-weight: 600;
+    color: #7B61FF;
+}
+
+.button-hire{
+    border: 2px solid #3730A3;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    color:#E1E1FF
+}
